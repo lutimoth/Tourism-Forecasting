@@ -1,37 +1,37 @@
 ,Model,MAE,RMSE,MAPE,SMAPE,MASE,RMSSE,R2,TT (Sec),time_series
-exp_smooth,Exponential Smoothing,1847.4689,3039.9658,8.729,0.1226,2.12,2.6891,0.5611,0.0633,BusinessAuckland
-lr_cds_dt,Linear w/ Cond. Deseasonalize & Detrending,292.8787,448.0243,1.62E+17,0.1555,1.2487,1.4706,0.4044,0.02,BusinessChristchurch
-huber_cds_dt,Huber w/ Cond. Deseasonalize & Detrending,23.9385,29.755,2.36E+16,0.5721,1.2396,0.8072,-0.441,0.02,BusinessDunedin
+exp_smooth,Exponential Smoothing,1847.5938,3040.2741,8.729,0.1226,2.1202,2.6894,0.561,0.0433,BusinessAuckland
+lr_cds_dt,Linear w/ Cond. Deseasonalize & Detrending,292.8787,448.0243,1.619677456189521e+17,0.1555,1.2487,1.4706,0.4044,0.0133,BusinessChristchurch
+huber_cds_dt,Huber w/ Cond. Deseasonalize & Detrending,23.9385,29.755,2.3583767500707164e+16,0.5721,1.2396,0.8072,-0.441,0.03,BusinessDunedin
 naive,Naive Forecaster,0.5139,2.4227,0.0556,0.1111,0.0278,0.0721,-0.058,0.0067,BusinessHamilton
-naive,Naive Forecaster,0,0,0,0,0,0,1,0.0067,BusinessPalmerston North
-naive,Naive Forecaster,1.5556,4.2164,0.0556,0.1111,0.4877,0.3525,0.6141,0.0067,BusinessRotorua
-exp_smooth,Exponential Smoothing,327.157,525.1005,1.77E+17,0.1483,1.4471,1.7904,0.447,0.04,BusinessWellington
-ets,ETS,119.2602,168.245,8.94E+16,0.2367,3.7151,2.4567,0.2016,0.03,BusinessQueenstown
-exp_smooth,Exponential Smoothing,2357.5204,3906.6538,9.9452,0.1204,2.1446,2.679,0.5671,0.04,BusinessTOTAL NEW ZEALAND PORTS
-exp_smooth,Exponential Smoothing,12095.1677,19280.2792,536.8139,0.1542,2.8119,3.0626,0.7525,0.0433,Holiday/VacationAuckland
-arima,ARIMA,3625.2503,5694.6243,1.04E+18,0.1666,1.7507,1.992,0.7231,0.04,Holiday/VacationChristchurch
-auto_arima,Auto ARIMA,102.4015,126.6047,5.04E+15,0.5043,1.2239,0.8402,-0.9062,62.3367,Holiday/VacationDunedin
-naive,Naive Forecaster,0.3194,1.4551,0.0417,0.0833,0.0049,0.0101,0.2936,0.0067,Holiday/VacationHamilton
-naive,Naive Forecaster,0,0,0,0,0,0,1,0.0067,Holiday/VacationPalmerston North
-naive,Naive Forecaster,24.8889,45.2491,0.1389,0.2778,1.8749,1.0377,0.1513,0.0067,Holiday/VacationRotorua
-ets,ETS,675.4736,984.8224,4.99E+17,0.1873,1.7479,1.4985,0.6799,0.0533,Holiday/VacationWellington
-ets,ETS,1807.8334,2922.2106,2.02E+18,0.1426,4.3983,3.0722,0.8024,0.1133,Holiday/VacationQueenstown
-bats,BATS,17376.7746,27582.7614,591.5086,0.148,2.8512,3.1626,0.7463,9.9567,Holiday/VacationTOTAL NEW ZEALAND PORTS
-exp_smooth,Exponential Smoothing,5335.4644,9234.4699,3.6724,0.113,2.351,2.7739,0.8677,0.1233,Visit Friends/RelativesAuckland
-auto_arima,Auto ARIMA,1182.1713,1871.1736,5.26E+17,0.1422,2.0777,2.2288,0.8486,70.4833,Visit Friends/RelativesChristchurch
-snaive,Seasonal Naive Forecaster,151.5694,238.7375,2.50E+16,0.3292,1.6591,1.454,-2.507,0.0067,Visit Friends/RelativesDunedin
-naive,Naive Forecaster,0,0,0,0,0,0,1,0.0067,Visit Friends/RelativesHamilton
-naive,Naive Forecaster,0,0,0,0,0,0,1,0.0067,Visit Friends/RelativesPalmerston North
-snaive,Seasonal Naive Forecaster,67.5556,88.5639,2.68E+17,0.4701,4.2831,1.6012,0.2656,0.0067,Visit Friends/RelativesRotorua
-knn_cds_dt,K Neighbors w/ Cond. Deseasonalize & Detrending,919.8191,1580.0349,9.84E+17,0.1393,2.3467,2.6155,0.7658,0.06,Visit Friends/RelativesWellington
-auto_arima,Auto ARIMA,324.3456,470.4592,2.57E+17,0.1836,5.5067,3.1883,0.8145,68.83,Visit Friends/RelativesQueenstown
-tbats,TBATS,6966.6664,12769.6453,4.445,0.1073,2.3529,2.9277,0.877,46.1367,Visit Friends/RelativesTOTAL NEW ZEALAND PORTS
-ets,ETS,19218.4877,33539.7833,3.1788,0.1191,2.8414,3.5155,0.759,0.15,TOTAL ALL TRAVEL PURPOSESAuckland
-arima,ARIMA,4893.7046,7911.5408,1.92E+18,0.1445,1.8631,2.187,0.7533,0.1233,TOTAL ALL TRAVEL PURPOSESChristchurch
-auto_arima,Auto ARIMA,242.2419,342.1065,3.44E+16,0.3323,1.3899,1.1531,-1.0304,46.4,TOTAL ALL TRAVEL PURPOSESDunedin
+naive,Naive Forecaster,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0033,BusinessPalmerston North
+naive,Naive Forecaster,1.5556,4.2164,0.0556,0.1111,0.4877,0.3525,0.6141,0.0033,BusinessRotorua
+exp_smooth,Exponential Smoothing,327.0615,524.7345,1.7709576089304317e+17,0.1482,1.4467,1.7891,0.4479,0.0367,BusinessWellington
+ets,ETS,119.2602,168.245,8.942973652377795e+16,0.2367,3.7151,2.4567,0.2016,0.0233,BusinessQueenstown
+exp_smooth,Exponential Smoothing,2358.3273,3905.6734,9.9394,0.1205,2.1454,2.6784,0.5673,0.0367,BusinessTOTAL NEW ZEALAND PORTS
+exp_smooth,Exponential Smoothing,12117.3473,19304.4273,536.814,0.1544,2.8171,3.0665,0.7523,0.04,Holiday/VacationAuckland
+arima,ARIMA,3625.2503,5694.6243,1.0421208788054441e+18,0.1666,1.7507,1.992,0.7231,0.0267,Holiday/VacationChristchurch
+auto_arima,Auto ARIMA,103.1505,127.2956,5052204146496381.0,0.5069,1.2327,0.8447,-0.9419,31.3067,Holiday/VacationDunedin
+naive,Naive Forecaster,0.3194,1.4551,0.0417,0.0833,0.0049,0.0101,0.2936,0.0033,Holiday/VacationHamilton
+naive,Naive Forecaster,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0033,Holiday/VacationPalmerston North
+naive,Naive Forecaster,24.8889,45.2491,0.1389,0.2778,1.8749,1.0377,0.1513,0.0033,Holiday/VacationRotorua
+ets,ETS,675.4676,984.8151,4.986479696876874e+17,0.1872,1.7478,1.4984,0.6799,0.03,Holiday/VacationWellington
+ets,ETS,1807.8334,2922.2105,2.023708693819065e+18,0.1426,4.3983,3.0722,0.8024,0.03,Holiday/VacationQueenstown
+bats,BATS,17376.7744,27582.761,591.5086,0.148,2.8512,3.1626,0.7463,7.4733,Holiday/VacationTOTAL NEW ZEALAND PORTS
+exp_smooth,Exponential Smoothing,5335.5806,9234.6022,3.6724,0.113,2.351,2.774,0.8677,0.0467,Visit Friends/RelativesAuckland
+bats,BATS,1231.6468,2041.8673,5.115275065057828e+17,0.1419,2.1732,2.4417,0.8329,16.1267,Visit Friends/RelativesChristchurch
+snaive,Seasonal Naive Forecaster,151.5694,238.7375,2.5019997929836092e+16,0.3292,1.6591,1.454,-2.507,0.0067,Visit Friends/RelativesDunedin
+naive,Naive Forecaster,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0067,Visit Friends/RelativesHamilton
+naive,Naive Forecaster,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0067,Visit Friends/RelativesPalmerston North
+snaive,Seasonal Naive Forecaster,67.5556,88.5639,2.6821437780784285e+17,0.4701,4.2831,1.6012,0.2656,0.0033,Visit Friends/RelativesRotorua
+knn_cds_dt,K Neighbors w/ Cond. Deseasonalize & Detrending,919.8191,1580.0349,9.8360735132233e+17,0.1393,2.3467,2.6155,0.7658,0.0333,Visit Friends/RelativesWellington
+auto_arima,Auto ARIMA,324.5924,470.6991,2.5728722892893014e+17,0.1837,5.5102,3.1897,0.8144,27.4233,Visit Friends/RelativesQueenstown
+exp_smooth,Exponential Smoothing,6921.5149,12095.8972,4.7293,0.1101,2.3168,2.7488,0.87,0.0367,Visit Friends/RelativesTOTAL NEW ZEALAND PORTS
+ets,ETS,19224.7633,33545.2596,3.1791,0.1191,2.8423,3.516,0.7589,0.0667,TOTAL ALL TRAVEL PURPOSESAuckland
+arima,ARIMA,4893.7046,7911.5408,1.9228430402953562e+18,0.1445,1.8631,2.187,0.7533,0.03,TOTAL ALL TRAVEL PURPOSESChristchurch
+auto_arima,Auto ARIMA,242.243,342.1073,3.4421811443390544e+16,0.3323,1.3899,1.1532,-1.0304,22.96,TOTAL ALL TRAVEL PURPOSESDunedin
 naive,Naive Forecaster,1.0833,3.5612,0.1528,0.3056,0.0044,0.0067,-0.1279,0.0067,TOTAL ALL TRAVEL PURPOSESHamilton
-naive,Naive Forecaster,0,0,0,0,0,0,1,0.0067,TOTAL ALL TRAVEL PURPOSESPalmerston North
-snaive,Seasonal Naive Forecaster,122.4444,156.8351,4.86E+17,0.5794,4.6756,1.6282,-0.3934,0.0067,TOTAL ALL TRAVEL PURPOSESRotorua
-ets,ETS,1662.2343,2839.035,1.13E+18,0.1239,2.0231,2.3315,0.6932,0.0333,TOTAL ALL TRAVEL PURPOSESWellington
-auto_arima,Auto ARIMA,2328.2499,3807.8336,2.58E+18,0.1397,4.5367,3.2743,0.7384,132.5233,TOTAL ALL TRAVEL PURPOSESQueenstown
-exp_smooth,Exponential Smoothing,25144.9588,45003.2397,4.1489,0.1132,2.6886,3.4357,0.7664,0.0967,TOTAL ALL TRAVEL PURPOSESTOTAL NEW ZEALAND PORTS
+naive,Naive Forecaster,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0033,TOTAL ALL TRAVEL PURPOSESPalmerston North
+snaive,Seasonal Naive Forecaster,122.4444,156.8351,4.863887597560136e+17,0.5794,4.6756,1.6282,-0.3934,0.0033,TOTAL ALL TRAVEL PURPOSESRotorua
+ets,ETS,1662.2344,2839.0351,1.1259029999416855e+18,0.1239,2.0231,2.3315,0.6932,0.0267,TOTAL ALL TRAVEL PURPOSESWellington
+auto_arima,Auto ARIMA,2326.2816,3805.7324,2.5761016715572234e+18,0.1396,4.5332,3.2727,0.7387,59.5467,TOTAL ALL TRAVEL PURPOSESQueenstown
+exp_smooth,Exponential Smoothing,25144.9588,45003.2397,4.1489,0.1132,2.6886,3.4357,0.7664,0.0433,TOTAL ALL TRAVEL PURPOSESTOTAL NEW ZEALAND PORTS
