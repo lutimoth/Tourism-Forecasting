@@ -1,0 +1,16 @@
+,Model,MAE,RMSE,MAPE,SMAPE,MASE,RMSSE,R2,TT (Sec),time_series
+prophet,Prophet,8332.2546,10931.0639,0.0233,0.0235,0.5424,0.5843,0.8808,1.0733,TotalAucklandOccupancy
+ets,ETS,7285.5621,9498.0717,0.0454,0.0447,0.5716,0.4748,0.8676,0.0367,TotalCanterburyOccupancy
+prophet,Prophet,5984.4584,7441.5653,0.0436,0.0434,0.8371,0.8323,0.6697,1.02,TotalWellingtonOccupancy
+lightgbm_cds_dt,Light Gradient Boosting w/ Cond. Deseasonalize & Detrending,9900.1905,11267.179,0.0683,0.0709,1.3879,1.2667,0.7765,0.0167,TotalQueenstownOccupancy
+knn_cds_dt,K Neighbors w/ Cond. Deseasonalize & Detrending,57269.6411,68051.522,0.0332,0.0332,1.097,1.0582,0.9552,0.0433,TotalTotal New ZealandOccupancy
+ets,ETS,2397.368,2945.5815,0.0347,0.0347,0.7781,0.754,0.8022,0.0333,MotelsAucklandOccupancy
+ada_cds_dt,AdaBoost w/ Cond. Deseasonalize & Detrending,3200.8283,3978.8371,0.061,0.0586,0.9792,0.7869,0.6406,0.0367,MotelsCanterburyOccupancy
+prophet,Prophet,1694.5332,2010.8431,0.0698,0.0717,0.8569,0.8008,0.2083,1.0667,MotelsWellingtonOccupancy
+bats,BATS,1769.7556,2227.6344,0.0912,0.0977,1.2692,1.2432,0.7731,5.8367,MotelsQueenstownOccupancy
+lightgbm_cds_dt,Light Gradient Boosting w/ Cond. Deseasonalize & Detrending,13202.0324,16474.3382,0.027,0.0272,0.8571,0.8579,0.94,0.02,MotelsTotal New ZealandOccupancy
+rf_cds_dt,Random Forest w/ Cond. Deseasonalize & Detrending,6246.2542,7796.2991,0.0297,0.0301,0.5687,0.582,0.6767,0.14,HotelsAucklandOccupancy
+exp_smooth,Exponential Smoothing,3970.7787,5095.5251,0.085,0.0886,0.5088,0.3449,0.024,0.03,HotelsCanterburyOccupancy
+rf_cds_dt,Random Forest w/ Cond. Deseasonalize & Detrending,2680.231,3491.6523,0.034,0.0337,0.6792,0.6779,0.6963,0.12,HotelsWellingtonOccupancy
+prophet,Prophet,4827.6709,5838.6951,0.0706,0.0734,1.2238,1.1762,0.6856,1.0233,HotelsQueenstownOccupancy
+exp_smooth,Exponential Smoothing,19418.2504,23130.6734,0.0331,0.0333,0.8412,0.8384,0.8262,0.03,HotelsTotal New ZealandOccupancy
