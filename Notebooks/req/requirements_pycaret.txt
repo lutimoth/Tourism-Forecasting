@@ -1,0 +1,8 @@
+matplotlib==3.4.3
+numpy==1.22.0
+pandas==1.3.4
+prophet==1.0.1
+pycaret==2.3.10
+pycaret_nightly==2.2.2.dev1607992691
+statsmodels==0.12.2
+tqdm==4.62.3
