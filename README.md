@@ -36,7 +36,9 @@ The regions were chosen to parallel accomodation data: Auckland, Christchurch, W
 
 ### Accomodation Dataset
 The dataset was broken down by region and by accomodation type (Hotels, Motels, Backpackers, Holiday Parks, All Accomodations). For backpackers, we saw a lot of sparse data that was not usable. Holiday parks were greatly seasonal. For a variety of regions, hotel data was quite sparse. For this reason, I pared down the regions and accomodations of interestion down to the following list:
+
 > Regions: Auckland, Canterbury, Wellington, Queenstown, Total New Zealand
+>
 > Accomodations: Hotels, Motels, and Total Occupancy
 
 ![Motels](./readme/EDA_Hotels.png)
