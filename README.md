@@ -41,7 +41,13 @@ The dataset was broken down by region and by accomodation type (Hotels, Motels, 
 
 ## 5. pycaret
 
+[Pycaret Modeling](./Notebooks/Modeling%20with%20Pycaret.ipynb)
+
+[Pycaret](https://pycaret.org/) allows for the modeling of multiple time series models on a singular time series dataset at once. This makes it very easy to explore a wide variety of models simultaneously ranging from traditional ARIMA to machine learning based models like Random Forest Regression and LightGBM. It does not test on neural network based models like DARTS does.
+
 Within [Proposal and Reports](/Proposal%20and%20Reports) we have the pycaret model results which gives metrics data. Due to the volume of models, the parameters utilized for each model can be found within the [Preprocessing and Modeling notebook](/Notebooks/Pre-process%20and%20Modeling%20for%20New%20Zealand%20Forecasting%20Data.ipynb) right by each model.
+
+![pycaret](./readme/pycaret_model.png)
 
 ## 6. Modeling
 
