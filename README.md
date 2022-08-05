@@ -62,6 +62,7 @@ The general process went as such: (1) break down each time series into its compo
 For more details please read the report but generally I saw the following: traditional ARIMA/SARIMAX models struggled with the data that was impacted by COVID-19 whereas BATS models did quite well at handling the data. We tested different models for time series data whose pycaret preditction did not perform well and found BATS models tended to do better. Something to not as a parallel from the accomodations dataset: following the Christchurch Earthquake, time series models were able to quickly rebound back once approximately a 12 months' worth of data was inputted into the dataset. 
 
 See here, the SARIMAX model (without exogenous factors) struggling to avoid non-negative forecasting for our Vistor data which should NOT have non-negative numbers.
+
 ![SARIMAX](./readme/sarimax_model.png)
 
 See here, the BATS model performing better on the tourism data avoid negative forecasts.
