@@ -1,10 +1,12 @@
+![New Zealand Banner](./readme/new_zealand_banner.png)
+
 # Tourism Forecasting Project
 
 Forecasting tourism and visitor can be challenging for a variety of reasons but accurate forecasts could give governments and industry a great indicator to economic health. As we exit the COVID-19 Pandemic, rapidly adapting time series models are even more important as data can be heavily skewed. In this capstone, I walk through the different steps of how I created a myriad of time series models and how I managed each one.
 
 Some notes on the project:
 
-There is a requirements file in the main github folder. It is recommended to create a separate environment for pycaret due to the dependencies needed at the time for pycaret 2.3 and the pycaret nightly 2.2.2. In the [Requirements and Docs](/Requirements%20and%20Docs) folders are different requirements.txt in the event that someone wishes to create a custom environment for pycaret.
+There is a requirements file in the main github folder. It is recommended to create a separate environment for pycaret due to the dependencies needed at the time for pycaret 2.3 and the pycaret nightly 2.2.2. In the [Requirements and Docs](./Requirements%20and%20Docs) folders are different requirements.txt in the event that someone wishes to create a custom environment for pycaret.
 
 
 ## 1. Data
@@ -51,6 +53,25 @@ Within [Proposal and Reports](/Proposal%20and%20Reports) we have the pycaret mod
 
 ## 6. Modeling
 
+[Modeling Report](./Notebooks/Pre-process%20and%20Modeling%20for%20New%20Zealand%20Forecasting%20Data.ipynb)
+
+We ran a variety of models which on the dataset (some time series data used the same modeling algorithms): exponential smoothing, ARIMA, SARIMAX, ETS, BATS, Prophet, random forest, Adaboost, LightGBM, and K-Nearest Neighbors. 
+
+The general process went as such: (1) break down each time series into its components of seasonality and trend, (2) take the pycaret model and fit the data to the model, (3) tune the model parameters as needed based on the components, and (4) forecast the data out for approximately 24-36 months to observe its performance. Models were tested using cross-validation making sure to split groups up in an ordered-manner to preserve time series data.
+
+For more details please read the report but generally I saw the following: traditional ARIMA/SARIMAX models struggled with the data that was impacted by COVID-19 whereas BATS models did quite well at handling the data. We tested different models for time series data whose pycaret preditction did not perform well and found BATS models tended to do better. Something to not as a parallel from the accomodations dataset: following the Christchurch Earthquake, time series models were able to quickly rebound back once approximately a 12 months' worth of data was inputted into the dataset. 
+
+See here, the SARIMAX model (without exogenous factors) struggling to avoid non-negative forecasting for our Vistor data which should NOT have non-negative numbers.
+![SARIMAX](./readme/sarimax_model.png)
+
+See here, the BATS model performing better on the tourism data avoid negative forecasts.
+![BATS Model](./readme/bats_model.png)
+
 ## 7. Final thoughts
 
+There is still lots of work to be done in forecasting. Overall, there can be improvements made to the model based on utilizing more exogenous factors or getting data that is more udpated. We can begin to see the power of forecasting here but it is still not an exact science. We can only hope to improve our models over time by getting more data.
+
+It was great working with data that had such an extreme case attached to it as the COVID-19 pandemic. It definitely made it challenging to apply traditional methods and I look forward to seeing how the data evolves over time and to come back to compare my forecast with future data.
+
 ## 8. Credits
+Thank you to the developers of pycaret, sktime, sklearn, DARTS, and a variety of other forecasting packages.
