@@ -2,7 +2,7 @@
 
 # Tourism Forecasting Project
 
-Forecasting tourism and visitor can be challenging for a variety of reasons but accurate forecasts could give governments and industry a great indicator to economic health. As we exit the COVID-19 Pandemic, rapidly adapting time series models are even more important as data can be heavily skewed. In this capstone, I walk through the different steps of how I created a myriad of time series models and how I managed each one.
+Forecasting tourism and visitor can be challenging for a variety of reasons but accurate forecasts could give governments and industry a great indicator to economic health. As we exit the COVID-19 Pandemic, rapidly adapting time series models are even more important as data can be heavily skewed. We want to give the best predictions that we can so we can properly support the hospitality industry and meet a government's needs for security. In this capstone, I walk through the different steps of how I created a myriad of time series models and how I managed each one.
 
 Some notes on the project:
 
